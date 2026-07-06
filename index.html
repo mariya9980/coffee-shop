@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>bootstrap</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,10<PASSWORD>;0,2<PASSWORD>;<PASSWORD>;<PASSWORD>;<PASSWORD>;<PASSWORD>;<PASSWORD>;<PASSWORD>;<PASSWORD>;1,1<PASSWORD>;1,2<PASSWORD>;1,3<PASSWORD>;1,4<PASSWORD>;1,5<PASSWORD>;1,6<PASSWORD>;1,7<PASSWORD>;1,8<PASSWORD>;1,9<PASSWORD>&family=Roboto:ital,wght@<PASSWORD>..9<PASSWORD>;1,1<PASSWORD>..9<PASSWORD>&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/bootstarp.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+    <body>
+        <!---navbar-->
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="./images/Cappuccino.jpg" alt="white ceramic cup of cappuccino with leaf latte art, steam rising; on a white saucer with scattered coffee beans on a wooden table conveying a warm, cozy cafe atmosphere" class="img-fluid rounded-circle"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#HOME">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#MENU">MENU</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR FEATURES
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#OUR-FEATURES">Our Special Features</a></li>
+            <li><a class="dropdown-item" href="#NEW-ARRIVALS">New Arrivals</a></li>
+            <li><hr class="dropdown-divider"></li>
+        
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#CONTACT-US" tabindex="-1" aria-disabled="true">CONTACT US</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-transparent" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--carousel-->
+<div id="HOME" class="mt-4">
+    <div id="carouselExampleControls"
+         class="carousel slide"
+         data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/slide1.jpg"
+                     class="d-block w-100"
+                     alt="">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/slide2.jpg"
+                     class="d-block w-100"
+                     alt="">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/slide3.jpg"
+                     class="d-block w-100"
+                     alt="">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+</div>
+<!----menu--->
+<section id="MENU" class="container my-5">
+    <h2 class="text-center mb-4">Our Menu</h2>
+    <div class="row g-4">
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="card h-100">
+                <img src="./images/CHOLOCAT ECOFFE.jpg" class="card-img-top" alt="Cappuccino">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Chocolate Coffee</h5>
+                    <p class="card-text">$4.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="card h-100">
+                <img src="./images/salted.jpg" class="card-img-top" alt="Cappuccino">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Salted Caramel Latte</h5>
+                    <p class="card-text">$4.50</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="card h-100">
+                <img src="./images/special coffee.jpg" class="card-img-top" alt="Cappuccino">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Special Coffee</h5>
+                    <p class="card-text">$5.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---cards-->
+<section id="OUR-FEATURES" class="container my-5">
+    <h2 class="text-center mb-4">Our Special Features</h2>
+
+    <div class="row g-4">
+
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="card h-100">
+                <img src="./images/card1.jpg" class="card-img-top" alt="Cappuccino">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cappuccino</h5>
+                    <p class="card-text">
+                        Our cappuccino is made with the finest coffee beans and steamed milk for a perfect balance of flavors.
+                    </p>
+                    <a href="#" class="btn custom-btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="card h-100">
+                <img src="./images/card2.jpg" class="card-img-top" alt="Latte">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Latte</h5>
+                    <p class="card-text">
+                        Our latte is a smooth blend of espresso and steamed milk, perfect for those who enjoy a creamy coffee experience.
+                    </p>
+                    <a href="#" class="btn custom-btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="card h-100">
+                <img src="./images/card3.jpg" class="card-img-top" alt="Espresso">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Espresso</h5>
+                    <p class="card-text">
+                        Our espresso is a strong, bold coffee that is perfect for those who enjoy a rich and intense flavor.
+                    </p>
+                    <a href="#" class="btn custom-btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+     <!---card-->
+    
+      <section id="NEW-ARRIVALS" class="container my-5">
+    <h2 class="text-center mb-4">New Arrivals</h2>
+
+    <div class="row g-4">
+
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+                <img src="./images/premium.jpg" class="card-img-top" alt="Coffee">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Classic Cappuccino</h5>
+                    <p class="card-text">
+                        Enjoy our freshly brewed cappuccino with rich aroma and creamy foam.
+                    </p>
+                    <a href="#" class="btn custom-btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+                <img src="./images/card 6.jpg" class="card-img-top" alt="Iced Coffee">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Iced Latte</h5>
+                    <p class="card-text">
+                        A refreshing iced latte made with premium espresso and chilled milk.
+                    </p>
+                    <a href="#" class="btn custom-btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+                <img src="./images/card5.jpg" class="card-img-top" alt="Espresso">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Premium Espresso</h5>
+                    <p class="card-text">
+                        Strong and bold espresso crafted for true coffee lovers.
+                    </p>
+                    <a href="#" class="btn custom-btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+                <img src="./images/mocha.jpg" class="card-img-top" alt="Coffee">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Mocha</h5>
+                    <p class="card-text">
+                        A delightful combination of coffee, milk, and chocolate flavors.
+                    </p>
+                    <a href="#" class="btn custom-btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+                <img src="./images/card 7.jpg" class="card-img-top" alt="Coffee">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cold Brew</h5>
+                    <p class="card-text">
+                        Smooth cold brew coffee prepared slowly for a rich taste.
+                    </p>
+                    <a href="#" class="btn custom-btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+                <img src="./images/caramel.jpg" class="card-img-top" alt="Coffee">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Caramel Latte</h5>
+                    <p class="card-text">
+                        Creamy latte blended with sweet caramel for a delicious experience.
+                    </p>
+                    <a href="#" class="btn custom-btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="CONTACT-US" class="container my-5">
+    <h2 class="text-center mb-4">Contact us</h2>
+    <div class="row">
+<!--contact form---->
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn custom-btn">Submit</button>
+          </form>
+        </div>
+        
+    
+       <!---contact details----->
+         <div class="col-md-6 mt-4 mt-md-0">
+          <h5>Contact Details</h5>
+          <p><strong>Address:</strong> 123 Coffee Street, Brewtown, USA</p>
+          <p><strong>Phone:</strong> (123) 456-7890</p>
+          <p><strong>Email:</strong> info@coffeeshop.com</p>
+         </div>
+        </div>
+       </section>
+
+       <footer class=" custom-bg text-white text-center py-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <!----brand--->
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="mb-2">Coffee Shop</h5>
+                    <p>serving fresh coffee since 2020.</p>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h5 class="mb-2">Follow Us</h5>
+                <a href="#" class="social-link me-3"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-link me-3"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="social-link me-3"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        </div>
+       </footer>
+<!----bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="/js/bootstrap.js"></script>
+
+</body>
+</html>
